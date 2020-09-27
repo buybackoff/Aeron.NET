@@ -51,6 +51,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adaptive.Aeron.Samples.Clus
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adaptive.Aeron.Samples.ClusterClient", "Samples\Adaptive.Aeron.Samples.ClusterClient\Adaptive.Aeron.Samples.ClusterClient.csproj", "{DB22F44D-0ABF-428F-BAA1-E0D89696ABD3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Driver", "Driver", "{5117DB60-32FC-4C80-AED5-261D9CCF1D6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adaptive.Aeron.Driver.Native", "Adaptive.Aeron.Driver.Native\Adaptive.Aeron.Driver.Native.csproj", "{2A92B6BF-2514-459E-8BF2-D009F7675F34}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -137,6 +141,10 @@ Global
 		{DB22F44D-0ABF-428F-BAA1-E0D89696ABD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB22F44D-0ABF-428F-BAA1-E0D89696ABD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB22F44D-0ABF-428F-BAA1-E0D89696ABD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A92B6BF-2514-459E-8BF2-D009F7675F34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A92B6BF-2514-459E-8BF2-D009F7675F34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A92B6BF-2514-459E-8BF2-D009F7675F34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A92B6BF-2514-459E-8BF2-D009F7675F34}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -162,6 +170,7 @@ Global
 		{5500E5A6-B22F-4FA3-B933-8C844A3CEC1A} = {9EAD0078-CA03-486D-BF2E-2C891955CE16}
 		{61C62DB8-CB67-4E3F-A2EA-30547183C64F} = {1807629C-08BB-487B-821E-8E0B72F5C4AC}
 		{DB22F44D-0ABF-428F-BAA1-E0D89696ABD3} = {1807629C-08BB-487B-821E-8E0B72F5C4AC}
+		{2A92B6BF-2514-459E-8BF2-D009F7675F34} = {5117DB60-32FC-4C80-AED5-261D9CCF1D6B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {374403EA-85FA-4ACA-8E38-FB938FFC7016}
